@@ -684,14 +684,15 @@ body::after{opacity:.13}
 .ly { transition-duration: .5s; }
 
 @media (max-width: 760px) {
-  .ar { height: 275vh; }
-  .scene { height: 325vh; }
-  .man { height: 175vh; }
-  .ba { height: 175vh; }
-  .hs { height: 240vh; }
-  .num { height: 190vh; }
-  .fin { height: 150vh; }
-  .kb { height: 215vh; }
+  /* Celular: seções mais altas = animação avança mais devagar por rolagem */
+  .ar { height: 520vh; }
+  .scene { height: 640vh; }
+  .man { height: 340vh; }
+  .ba { height: 320vh; }
+  .hs { height: 440vh; }
+  .num { height: 340vh; }
+  .fin { height: 230vh; }
+  .kb { height: 400vh; }
   .dl { height: 190vh; }
   .mock { transition-duration: .8s; }
 }
